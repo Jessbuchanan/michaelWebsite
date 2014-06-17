@@ -1,0 +1,249 @@
+.caption { display: none; }
+/*global*/
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #faf3bc;
+	background:  #333333;
+}
+
+a {
+	color: #4fb69f;
+	text-decoration: none;
+}
+
+
+
+/*typography*/
+
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	font-size: 2.5vw;
+	color: #b4c34f;
+}
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
+}
+
+
+#logoBlock{
+position: relative;
+	margin: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	top: 0;
+	background-color: #420600;	
+	width: 100%;
+	height: 15%; 
+}
+
+#logoBlock h1 {
+	color: #FFF;
+	text-align: center;
+	top: 20px;
+}
+
+#logoBlock img {
+	width: 20%;
+	height: 20%;
+}
+
+#navigation{
+	position: relative;
+	width: 80%;
+	height: 15%;
+	left: 10%;
+	background-color: #008080;
+}
+
+#navigation ul{
+	list-style-type:none;
+	margin: 0 auto;
+	width: 100%;
+	height: 25%;
+	margin-left: 12%;
+	
+}
+
+#navigation li {
+	display:inline;
+	float: left;
+	padding: 1%;
+	width: 15%;
+}
+
+.round-button {
+	width:85%;
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #ff8080;
+    overflow:hidden;
+    
+    background: #c83737; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#F5F5DC;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+#current-caption { width: 800px; margin: 10px auto; padding: 30px; text-align: center; }
+
+#contact{
+	position: relative;
+	width: 200px;
+	height: 50px;
+}
+#contact img{
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+
+#image{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+
+#temporary{
+	position: relative;
+	text-align: center;
+	font-size: 2em;
+	height: 40%;
+	width: 100%;
+	
+}
+#section1 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+#section 1  h1 {
+	height: 2%;
+	width: 2%;
+	left: 5%;
+	color: #FFF
+}
+
+#game1 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section2 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+#game2 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section3 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+#game3 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section4 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+#game4 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section5 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+#game5 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section6 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+#game6 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+
+#section7 {
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+#game7 {
+	position: relative;
+	left: 30%;
+	top:-10%;
+}
+
+body#home .round-button a#homeNav,
+body#games .round-button a#gamesNav,
+body#resume .round-button a#resumeNav,
+body#contact .round-button a#contactNav {
+background: #30588e;
+}
